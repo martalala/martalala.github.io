@@ -15,9 +15,11 @@ h1 {
 
 h2 {
     font-size: 1.875rem;
+    font-weight: 700;
 }
 h3 {
     font-size: 1.375rem;
+    font-weight: 700;
 }
 
 footer {
@@ -28,7 +30,11 @@ footer {
 }
 
 a{
-    color: #0AC795;
+    color: #38A1D6;
+    -webkit-text-decoration: #0F3F7B solid underline;
+    text-decoration: #0F3F7B solid underline;
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip: ink;
 }
 
 .text_center{
@@ -41,7 +47,7 @@ h1, h2, h3, p{
 }
 
 .wrapper{
-    margin: 30px;
+    margin: 0 30px;
 }
 
 .navigation,
@@ -55,6 +61,10 @@ h1, h2, h3, p{
     background: url(img/Green_shape-01.png) 20% 40vh no-repeat;
     background-size: 150%;
 }
+.contact_page{
+    background: url(img/Green_shape-02.png) 97% -18vh no-repeat;
+    background-size: 200%;
+}
 
 .button__primary{
     display: block;
@@ -63,6 +73,7 @@ h1, h2, h3, p{
     border-radius: 5px;
     font-size: 1.375rem;
     color:#0F3F7B;
+    text-decoration: none;
     font-weight: 700;
     text-align: center;
     background-color: #17F9C2;
@@ -106,9 +117,14 @@ img {
     margin: 0 30px 60px 30px;
 }
 .padding__image{
-    padding: 20px;
+    padding: 30px;
 }
 
 .portfolio__title{
     margin: 0;
+}
+
+.comoh3{
+    font-size: 1.375rem;
+    font-weight: 700;
 }
