@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: white;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+body, h1, h2, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+svg {
+    display: block;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: 0.3rem;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+a {
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    margin: 2.5rem 2.5rem;
+    text-transform: uppercase;
+    width: 15rem;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+    font-size: .75rem;
+}
+
+.button__fill {
+    background-color: #e8c300;
+}
+
+.button__border {
+    border: #e5e5e5 1px solid;
+}
+
+.restaurant {
+    letter-spacing: .5rem;
+    font-size: .75rem;
+}
+
+
+.header {
+    padding: 1rem 0;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.billboard {
+    background: #000 url(img/header-bg.jpg) 50% no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    position: relative;
+}
+
+.billboard__content {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.billboard__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.billboard__schedule {
+    position: absolute;
+    left: 0;
+    /*
+     * código necesario porque "transform:rotate" cambia el eje del elemento
+     * y para normalizarlo tenemos que añadir cálculos matemáticos
+     */
+    transform: rotate(-90deg) translate(-50%, calc(50% + 20px));
+    transform-origin: 0 50%;
+}
+
+.billboard__rrss {
+    position: absolute;
+    right: 0;
+}
+
+.navigation,
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+
+.navigation__list li {
+    margin: 1rem 2rem;
+}
+
+.navigation__list li a {
+    text-decoration: none;
+}
+
+.social__item {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: block;
+    padding: 10px;
+}
+
+.underline::after {
+    background: yellow;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    height: 4px;
+    margin: 20px auto 0;
+    width: 80px;
+}
+
+.billboard::before {
+    background: #000;
+    content: '';
+    display: block;
+    height: 100%;
+    opacity: 0.65;
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.column__image {
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+    margin: 0 auto;
+    max-width: 75%;
+    position: relative;
+}
+
+.column__image::before {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+.column__image::after {
+    border: 10px solid #e8c300;
+    content: '';
+    display: block;
+    height: 10rem;
+    margin-top: -5rem;
+    margin-right: -5rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 10rem;
+}
+
+.reverse .column__image::after {
+    left: 0;
+    margin-left: -5rem;
+    margin-right: 0;
+    right: initial;
+}
+
+.about-image {
+    background-image: url(img/fire.jpg);
+}
+
+.team-image {
+    background-image: url(img/chef.jpg);
+}
+
+.bg-team {
+    background: #000 url(img/speciality-bg.png) 50% no-repeat;
+    background-size: cover;
+}
+
+.titular {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.titular::after {
+    background: yellow;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    height: 4px;
+    margin: 20px auto 0;
+    width: 80px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.big {
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.social svg { fill: white; }
+
+
+
+
+
+/* min-width: 768px / 16 */
+@media screen and (min-width: 48em) {
+    .row {
+        display: flex;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+    .column__image {
+        display: block;
+    }
+}
+
+
+
+
+
