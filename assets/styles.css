@@ -46,8 +46,10 @@ h1, h2, h3, p{
     margin: 0.85rem 0;
 }
 
+
 .wrapper{
     margin: 0 1.875rem;
+    max-width: 1400px;
 }
 
 .portfolio_title{
@@ -62,16 +64,16 @@ h1, h2, h3, p{
     font-size: .75rem;
 }
 .home_page{
-    background: url(img/Green_shape-01.png) 20% 40vh no-repeat;
+    background: url(img/green_shape-01.png) 20% 24vh no-repeat;
     background-size: 150%;
 }
 .portfolio__background{
-    background: url(img/Green_shape-02.png) 73% -15vh no-repeat;
+    background: url(img/green_shape-02.png) 73% -15vh no-repeat;
     background-size: 200%;
   }
 
 .contact_page{
-    background: url(img/Green_shape-02.png) 97% 36vh no-repeat;
+    background: url(img/green_shape-02.png) 97% 36vh no-repeat;
     background-size: 200%;
 }
 
@@ -117,12 +119,10 @@ img {
     margin-right: auto;
 }
 
-
-
-
 .section{
     margin: 0 1.6875rem 5rem 1.6875rem;
 }
+
 .padding__image{
     padding: 0 2.53rem;
 }
@@ -153,3 +153,72 @@ img {
 #contact .wrapper img{
     padding: 1.6875rem 2rem;
 }
+
+.hero__image {
+    margin-top: 2rem;
+    max-width: 380px;
+    }
+
+
+@media (min-width: 48em) { /* 768px */
+
+    .home_page{
+        background: url(img/green_shape-01.png) 80% 23vh no-repeat;
+        background-size: 80%;
+    }
+
+    .hero {
+        padding: 6rem 0;
+    }
+
+    .hero__image {
+    padding-top: 6rem;
+    }
+
+    .wrapper{
+        margin: 0 5rem;
+    }
+
+    .section{
+        margin: 0 5rem 5rem 5rem;
+    }
+}
+
+@media (min-width: 64em) { /* 1024px */
+
+    .home_page{
+        background: url(img/green_shape-01.png) 139% 3vh no-repeat;
+        background-size: 65%;
+    }
+
+    .hero {
+        display: flex;
+        padding: 8rem 0;
+    }
+
+    .hero__content {
+        width: 60%;
+    }
+
+    .hero__image {
+        width: 40%;
+        padding-top: 10rem;
+        max-width: 780px;
+    }
+
+    .wrapper{
+        margin: 0 10rem;
+    }
+
+    .section{
+        display: flex;
+        margin: 0 10rem 5rem 10rem;
+        justify-content: space-between;
+    }
+
+    .section__content{
+        width: 70%;
+    }
+
+
+}   
