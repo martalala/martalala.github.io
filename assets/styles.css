@@ -5,6 +5,7 @@
 html, body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    font-size: 16px;
 }
 
 
@@ -63,7 +64,7 @@ h1, h2, h3, p{
     text-transform: uppercase;
     font-size: .75rem;
 }
-.home_page{
+/*.home_page{
     background: url(img/green_shape-01.png) 20% 24vh no-repeat;
     background-size: 150%;
 }
@@ -76,12 +77,13 @@ h1, h2, h3, p{
     background: url(img/green_shape-02.png) 97% 36vh no-repeat;
     background-size: 200%;
 }
+*/
 
 .button__primary{
     display: block;
     margin: 1.6875rem auto;
     padding: 1rem 3rem;
-    border-radius: 5px;
+    border-radius: 36px;
     font-size: 1.375rem;
     color:#0F3F7B;
     text-decoration: none;
@@ -90,7 +92,6 @@ h1, h2, h3, p{
     background-color: #17F9C2;
     max-width: 300px;
 }
-
 
 
 .navigation__list li a {
@@ -162,9 +163,16 @@ img {
 
 @media (min-width: 48em) { /* 768px */
 
-    .home_page{
+    /*.home_page{
         background: url(img/green_shape-01.png) 80% 23vh no-repeat;
         background-size: 80%;
+    }
+    */
+
+    html, body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        font-size: 18px;
     }
 
     .hero {
@@ -182,18 +190,117 @@ img {
     .section{
         margin: 0 5rem 5rem 5rem;
     }
+    .contact_page img{
+        max-width: 420px; 
+        margin-top: 3rem;
+    }
+    .button__primary{
+        display: block;
+        margin: 1.6875rem auto;
+        padding: 1rem 3rem;
+        border-radius: 36px;
+        font-size: 1rem;
+        color:#0F3F7B;
+        text-decoration: none;
+        font-weight: 700;
+        text-align: center;
+        background-color: #17F9C2;
+        max-width: 300px;
+    }
 }
 
-@media (min-width: 64em) { /* 1024px */
+@media (min-width: 72em) { /* 1024px */
+    html, body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        font-size: 18px;
+    }
 
-    .home_page{
+   /* .home_page{
         background: url(img/green_shape-01.png) 139% 3vh no-repeat;
         background-size: 65%;
+    }
+    */
+
+    .fall{
+        margin-right: 1.5rem;
     }
 
     .hero {
         display: flex;
-        padding: 8rem 0;
+        padding: 5rem 0;
+    }
+
+    .hero__content {
+        width: 65%;
+    }
+
+    .hero__image {
+        width: 35%;
+        padding-top: 10rem;
+        max-width: 410px;
+        min-width: 380px;
+    }
+
+    .wrapper{
+        margin: 0 9rem;
+    }
+
+    .section{
+        display: flex;
+        margin: 0 9rem 5rem 9rem;
+        justify-content: space-between;
+    }
+
+    .section__invert{
+        display: flex;
+        margin: 0 9rem 5rem 9rem;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .section__content{
+        width: 70%;
+    }
+
+    .button__primary{
+        display: block;
+        margin: 1.6875rem 0;
+        padding: 1rem 3rem;
+        border-radius: 36px;
+        font-size: 0.9rem;
+        color:#0F3F7B;
+        text-decoration: none;
+        font-weight: 700;
+        text-align: center;
+        background-color: #17F9C2;
+        max-width: 300px;
+    }
+    .contact_page img{
+        max-width: 480px; 
+    }
+}   
+
+@media (min-width: 93em) { /* 1500px */
+    html, body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        font-size: 20px;
+    }
+
+   /* .home_page{
+        background: url(img/green_shape-01.png) 139% 3vh no-repeat;
+        background-size: 65%;
+    }
+    */
+
+    .fall{
+        margin-right: 1.5rem;
+    }
+
+    .hero {
+        display: flex;
+        padding: 5rem 0;
     }
 
     .hero__content {
@@ -203,22 +310,45 @@ img {
     .hero__image {
         width: 40%;
         padding-top: 10rem;
+        min-width: 410px;
         max-width: 780px;
     }
 
     .wrapper{
-        margin: 0 10rem;
+        margin: 0 12rem;
     }
 
     .section{
         display: flex;
-        margin: 0 10rem 5rem 10rem;
+        margin: 0 12rem 5rem 12rem;
         justify-content: space-between;
+    }
+
+    .section__invert{
+        display: flex;
+        margin: 0 12rem 5rem 12rem;
+        justify-content: space-between;
+        flex-direction: row-reverse;
     }
 
     .section__content{
         width: 70%;
     }
 
-
+    .button__primary{
+        display: block;
+        margin: 1.6875rem 0;
+        padding: 1rem 3rem;
+        border-radius: 36px;
+        font-size: 0.9rem;
+        color:#0F3F7B;
+        text-decoration: none;
+        font-weight: 700;
+        text-align: center;
+        background-color: #17F9C2;
+        max-width: 300px;
+    }
+    .contact_page img{
+        max-width: 480px; 
+    }
 }   
