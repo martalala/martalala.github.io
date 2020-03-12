@@ -37,6 +37,9 @@ a{
     -webkit-text-decoration-skip: ink;
     text-decoration-skip: ink;
 }
+.flex_title{
+    display: flex;
+}
 
 .text_center{
     text-align: center;
@@ -133,7 +136,7 @@ img {
 }
 
 .comoh3{
-    font-size: 1.375rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
@@ -215,6 +218,9 @@ img {
         margin: 0;
         font-size: 18px;
     }
+    h2{
+        font-size: 2rem;
+    }
 
    /* .home_page{
         background: url(img/green_shape-01.png) 139% 3vh no-repeat;
@@ -278,6 +284,11 @@ img {
     }
     .contact_page img{
         max-width: 480px; 
+        margin-top: 0;
+    }
+    .comoh3{
+        font-size: 1.2em;
+        font-weight: 700;
     }
 }   
 
@@ -286,6 +297,9 @@ img {
         font-family: 'Poppins', sans-serif;
         margin: 0;
         font-size: 20px;
+    }
+    h2{
+        font-size: 2.1rem;
     }
 
    /* .home_page{
@@ -349,6 +363,12 @@ img {
         max-width: 300px;
     }
     .contact_page img{
-        max-width: 480px; 
+        max-width: 580px; 
+        margin-top: 0;
+    }
+   
+    .comoh3{
+        font-size: 1.1em;
+        font-weight: 700;
     }
 }   
