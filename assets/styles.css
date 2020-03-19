@@ -13,7 +13,6 @@ header{
     position: fixed;
     z-index: 1;
     background: #ffffff;
-    width: -webkit-fill-available;
     top: 0;
 }
 
