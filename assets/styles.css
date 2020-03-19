@@ -11,7 +11,7 @@ html, body {
 header{
     display: block;
     position: fixed;
-    z-index: 10;
+    z-index: 1;
     background: #ffffff;
     width: -webkit-fill-available;
     top: 0;
