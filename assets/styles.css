@@ -95,9 +95,7 @@ h1, h2, h3, p{
 }
 */
 .home_page{
-    margin-top: 5rem;
-    background: url(img/green_shape-01.png) 120% 7vh no-repeat;
-    background-size: 60%;
+    margin-top: 10rem;
 }
 
 .button__primary{
@@ -143,6 +141,7 @@ img {
 
 .section{
     margin: 0 1.6875rem 5rem 1.6875rem;
+    min-height: 100vh;
 }
 
 .padding__image{
@@ -198,6 +197,10 @@ img {
 
     .hero {
         padding: 6rem 0;
+    }
+    
+    .home_page{
+        margin-top: 5rem;
     }
 
     .navigation,
@@ -259,6 +262,12 @@ img {
     }
     */
 
+    .home_page{
+        margin-top: 5rem;
+        background: url(img/green_shape-01.png) 120% 7vh no-repeat;
+        background-size: 60%;
+    }
+
     .flex_title{
         display: flex;
         justify-content: space-between;
@@ -302,8 +311,10 @@ img {
 
     .section{
         display: flex;
-        margin: 0 9rem 5rem 9rem;
+        margin: auto 9rem;
         justify-content: space-between;
+        min-height: 100vh;
+
     }
 
     .section__invert{
