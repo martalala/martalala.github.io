@@ -8,6 +8,14 @@ html, body {
     font-size: 16px;
 }
 
+header{
+    display: block;
+    position: fixed;
+    z-index: 10;
+    background: #ffffff;
+    width: -webkit-fill-available;
+    top: 0;
+}
 
 h1 {
     font-size: 3rem;
@@ -31,7 +39,7 @@ footer {
 }
 
 a{
-    color: #38A1D6;
+    color: #0F3F7B;
     -webkit-text-decoration: #0F3F7B solid underline;
     text-decoration: #0F3F7B solid underline;
     -webkit-text-decoration-skip: ink;
@@ -39,6 +47,7 @@ a{
 }
 .flex_title{
     display: flex;
+    justify-content: space-between;
 }
 
 .text_center{
@@ -64,9 +73,12 @@ h1, h2, h3, p{
 .navigation__list {
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
     font-size: .75rem;
 }
+.navigation__list li {
+    margin: 1rem 2rem;
+}
+
 /*.home_page{
     background: url(img/green_shape-01.png) 20% 24vh no-repeat;
     background-size: 150%;
@@ -103,7 +115,7 @@ h1, h2, h3, p{
 
 ul, ol {
     list-style-type: none;
-    margin: 0;
+    margin-top: 1rem;
     padding: 0;
 }
 
