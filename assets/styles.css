@@ -10,23 +10,32 @@ body {
     overflow-x: hidden;
 }
 
+.texto_intro {
+    font-size: 1.8125rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
 header {
     display: block;
     position: fixed;
     z-index: 1;
     background: rgba(255, 255, 255, 0.9);
-    width: -webkit-fill-available;
+    width: 100%;
     top: 0;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.125rem;
     font-weight: 700;
+    line-height: 1.3;
 }
 
 h2 {
-    font-size: 1.812rem;
+    font-size: 2.5rem;
     font-weight: 700;
+    line-height: 1.3;
+    padding-right: 4.5rem;
 }
 h3 {
     font-size: 1.375rem;
@@ -66,10 +75,22 @@ p {
     color: #0f3f7b;
     margin: 0.85rem 0;
 }
+p{
+    line-height: 1.6875rem;
+}
+
+.box_fill{
+    display: block;
+    margin: 0 -1rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 15px;
+    background-color: #EDF3F4;
+    
+}
 
 .wrapper {
     padding: 0 1.875rem;
-    margin: 0 auto;
+    margin: 0 auto 4rem;
     width: 100%;
 }
 
@@ -103,7 +124,7 @@ p {
 */
 .home_page {
     margin-top: 10rem;
-    background: url(img/green_shape-01.png) 20% 45vh no-repeat;
+    background: url(img/green_shape-01.png) 6% 28vh no-repeat;
     background-size: 140%;
 }
 
@@ -185,8 +206,23 @@ img {
 
 .hero__image {
     margin-top: 2rem;
-    max-width: 380px;
+    max-width: 340px;
 }
+
+
+.card__content {
+    background: #F6FAFC;
+    border-radius: 20px;
+    padding: 3.5rem 1.5rem 1.5rem;
+    margin-top: -5rem;
+}
+
+.card__image {
+    margin: 0 auto;
+    max-width: 315px;
+    width: 95%;
+}
+
 
 @media (min-width: 48em) and (max-width: 72em) {
     /* 768px */
@@ -255,6 +291,18 @@ img {
         background-color: #17f9c2;
         max-width: 300px;
     }
+
+    .grid {
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .grid__column {
+        width: calc((100% - 1rem) / 2);
+    }
+    
 }
 
 @media (min-width: 72em) {
@@ -325,7 +373,6 @@ img {
         padding: none;
         height: 100%;
         position: relative;
-        background-color: blue;
     }
 
     header.wrapper {
@@ -368,12 +415,26 @@ img {
         background-color: #17f9c2;
         max-width: 300px;
     }
+
     .contact_page img {
         max-width: 480px;
         margin-top: 0;
     }
+
     .comoh3 {
         font-size: 1.2em;
         font-weight: 700;
     }
-}
+
+    .grid {
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .grid__column {
+        width: calc((100% - 1rem) / 2);
+    }
+
+}    
