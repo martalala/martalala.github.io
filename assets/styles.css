@@ -149,8 +149,7 @@ body {
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
+  margin: -52px 0 0 -50px;
   padding-top: 125px;
   padding-bottom: 300px;
   
@@ -163,6 +162,7 @@ body {
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  height: 100vh;
 }
 
 #menu li
@@ -366,9 +366,7 @@ img {
     align-items: center;
     justify-content: space-evenly;
 }
-#contact .wrapper img {
-    padding: 1.6875rem 2rem;
-}
+
 
 .hero__image {
     margin-top: 2rem;
@@ -382,6 +380,8 @@ img {
     border-radius: 20px;
     padding: 3.5rem 1.5rem 1.5rem;
     margin-top: -5rem;
+    min-height: inherit;
+    height: 395px;
 }
 
 .card__image {
@@ -390,6 +390,9 @@ img {
     width: 95%;
 }
 
+.light_text{
+    color: #38A1D6;
+}
 
 @media (min-width: 48em) and (max-width: 72em) {
     /* 768px */
@@ -460,7 +463,7 @@ img {
     }
 
     .grid {
-        align-items: flex-start;
+        align-items: flex-end;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -481,7 +484,9 @@ img {
         font-size: 18px;
     }
     h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        margin: 2rem 0;
+        padding-right: 0;
     }
 
     /* .home_page{
@@ -492,8 +497,8 @@ img {
 
     .home_page {
         margin-top: 0;
-        background: url(img/green_shape-01.png) 120% 7vh no-repeat;
-        background-size: 60%;
+        background: url(img/green_shape-01.png) 115% 11vh no-repeat;
+        background-size: 58%;
     }
 
     .flex_title {
@@ -535,8 +540,8 @@ img {
         bottom: 0;
     }
     .wrapper {
-        padding: 0 9rem;
-        max-width: 1400px;
+        padding: 2rem 9rem;
+        max-width: 1200px;
         padding: none;
         height: 100%;
         position: relative;
@@ -552,6 +557,15 @@ img {
         justify-content: space-between;
         min-height: 100vh;
         align-items: center;
+    }
+
+    .box_fill{
+        display: block;
+        margin: 0 -2rem;
+        padding: 2rem 4.5rem;
+        border-radius: 15px;
+        background-color: #EDF3F4;
+        
     }
 
     .flex {
@@ -594,7 +608,7 @@ img {
     }
 
     .grid {
-        align-items: flex-start;
+        align-items: flex-end;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
