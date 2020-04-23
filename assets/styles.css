@@ -442,6 +442,7 @@ img {
     .hero__image {
         padding-top: 6rem;
     }
+   
 
     .wrapper {
         padding: 0 5rem;
@@ -539,6 +540,12 @@ img {
         max-width: 410px;
         min-width: 380px;
     }
+    .logo__image {
+        width: 60%;
+        max-width: 530px;
+        min-width: 380px;
+    }
+
     .hero a{
         display: block;
         position: absolute;
