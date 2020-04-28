@@ -4,46 +4,28 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Marta Laplana</title>
-
+        <link href="../assets/img/apple-icon-60x60.png" rel="shortcut icon" type="image/x-icon"/>
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" rel="stylesheet">
         <link rel="stylesheet" href="assets/styles.css">
+        <link href="assets/img/favicon-96x96.png" rel="shortcut icon" type="image/x-icon"/>
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     </head>
 
     <body class="">
 
-        <header class="">
-                <nav role="navigation" class="flex_title">
-                    <div id="menuToggle">
-                      <!--
-                      A fake / hidden checkbox is used as click reciever,
-                      so you can use the :checked selector on it.
-                      -->
-                      <input type="checkbox" />
-                      
-                      <!--
-                      Some spans to act as a hamburger.
-                      
-                      They are acting like a real hamburger,
-                      not that McDonalds stuff.
-                      -->
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      
-                      <!--
-                      Too bad the menu has to be inside of the button
-                      but hey, it's pure CSS magic.
-                      -->
-                      <ul id="menu">
-                        <a href="#home" class="js-anchor"><li>Home</li></a>
-                        <a href="#about" class="js-anchor"><li>About me</li></a>
-                        <a href="#projects" class="js-anchor"><li>Projects</li></a>
-                        <a href="#contact" class="js-anchor"><li>Contact</li></a>
-                        <a href="proyectos/proyecto-01/projects.html"><li>Projects page</li></a>
-                      </ul>
-                    </div>
-                    <a href="#home" class="js-anchor logo">Marta</a>
-                  </nav>
+        <header class="header">
+            <img src="assets/img/marta.svg" alt="Logo" class="logo desktop">
+            <img src="assets/img/marta-m.svg" alt="Logo" class="logo mobile">
+            <button class="burguer js-open"><svg width="29" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="28.479" height="3" rx="1.5" fill="#04174D"/><rect y="10.051" width="28.479" height="3" rx="1.5" fill="#04174D"/><rect y="20.102" width="28.479" height="3" rx="1.5" fill="#04174D"/></svg></button>
+            <nav class="navigation">
+                <button class="navigation__close js-close"><svg width="44" height="45" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="9.899" y="32.343" width="31.112" height="4" rx="2" transform="rotate(-45 9.9 32.343)" fill="#C4C4C4"/><rect x="12.727" y="9.716" width="31.112" height="4" rx="2" transform="rotate(45 12.727 9.716)" fill="#C4C4C4"/></svg></button>
+                    <ul class="navigation__list">
+                        <a href="#home" class="js-anchor menu_text"><li>Home</li></a>
+                        <a href="proyectos/index.html" class="menu_text"><li>Projects</li></a>
+                        <a href="#contact" class="js-anchor menu_text"><li>Contact</li></a>
+                    </ul>
+                </nav>
         </header>
 
         <main class="home_page">
@@ -84,7 +66,7 @@
                                     <p>
                                         Panòptic es un festival de cine que explora los efectos de la era digital en la sociedad. Para su primera edición cree el logo, cartel y programa de mano del festival.
                                     </p>
-                                    <a href="">Ver más</a>
+                                    <a class="link" href="proyectos/proyecto-01/projects.html">Ver más</a>
                                 </div>
                             </div>
                         </div>
@@ -97,12 +79,12 @@
                                     <p>
                                         Viaja al espacio de la manera más cómoda y segura. Landing creada en la clase de Experience Design del Máster en diseño de experiencias digitales.
                                     </p>
-                                    <a href="">Ver más</a>
+                                    <a class="link" href="">Ver más</a>
                                 </div>
                             </div>
                         </div>
                     </div>   
-                    <a href="" class="button__primary">Ver todos</a> 
+                    <a href="proyectos/index.html" class="button__primary">Ver todos</a> 
                 </div>
              </section>
 
@@ -113,7 +95,7 @@
                         <p class="comoh3">Tienes un proyecto en mente que quieras desarrollar?</p>
                         <p class="comoh3">Estás buscando una diseñadora para unirse a tu equipo?</p>
                         <p class="comoh3">No dudes en contactarme a 
-                        <a class="light_text" href="mailto:italodr@gmail.com">martalaplana@gmail.com </a> 
+                        <a class="link" href="mailto:martalaplana@gmail.com">martalaplana@gmail.com </a> 
                       </p>
                     </div>  
                 <img src="assets/img/contact-green-01.png" class="center">
@@ -125,10 +107,10 @@
         <footer>
             <div class="social footer__wrapper ">
                 <a class="social__item" href="https://www.behance.net/laplana" target="_blank" rel="noopener noreferrer">
-                    <svg height="60" viewBox="0 0 24 24" width="60" xmlns="http://www.w3.org/2000/svg"><path d="M12.363 14.947c0-1.848-.879-3.214-2.695-3.726 1.325-.631 2.016-1.587 2.016-3.074 0-2.932-2.192-3.647-4.721-3.647H0v14.721h7.158c2.684 0 5.205-1.283 5.205-4.274zM3.246 7.013h3.046c1.171 0 2.225.328 2.225 1.682 0 1.25-.82 1.753-1.98 1.753H3.246zm-.001 9.708v-4.054h3.538c1.429 0 2.333.594 2.333 2.102 0 1.487-1.079 1.952-2.4 1.952zM18.796 19.5c2.554 0 4.208-1.147 5.004-3.585h-2.592c-.279.91-1.429 1.391-2.321 1.391-1.721 0-2.625-1.005-2.625-2.713h7.713c.244-3.418-1.66-6.331-5.18-6.331-3.259 0-5.471 2.442-5.471 5.641 0 3.32 2.096 5.597 5.472 5.597zm-.092-9.026c1.475 0 2.217.864 2.341 2.277h-4.779c.097-1.401 1.03-2.277 2.438-2.277zM15.667 5.273h5.988v1.45h-5.988z"/></svg>
+                    <svg height="45" viewBox="0 0 24 24" width="60" xmlns="http://www.w3.org/2000/svg"><path d="M12.363 14.947c0-1.848-.879-3.214-2.695-3.726 1.325-.631 2.016-1.587 2.016-3.074 0-2.932-2.192-3.647-4.721-3.647H0v14.721h7.158c2.684 0 5.205-1.283 5.205-4.274zM3.246 7.013h3.046c1.171 0 2.225.328 2.225 1.682 0 1.25-.82 1.753-1.98 1.753H3.246zm-.001 9.708v-4.054h3.538c1.429 0 2.333.594 2.333 2.102 0 1.487-1.079 1.952-2.4 1.952zM18.796 19.5c2.554 0 4.208-1.147 5.004-3.585h-2.592c-.279.91-1.429 1.391-2.321 1.391-1.721 0-2.625-1.005-2.625-2.713h7.713c.244-3.418-1.66-6.331-5.18-6.331-3.259 0-5.471 2.442-5.471 5.641 0 3.32 2.096 5.597 5.472 5.597zm-.092-9.026c1.475 0 2.217.864 2.341 2.277h-4.779c.097-1.401 1.03-2.277 2.438-2.277zM15.667 5.273h5.988v1.45h-5.988z"/></svg>
                 </a>
                 <a class="social__item" href="https://www.linkedin.com/in/marta-laplana" target="_blank" rel="noopener noreferrer">
-                    <svg height="40" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg"><path d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z"/></svg> 
+                    <svg height="30" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg"><path d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z"/></svg> 
                 </a>
             </div>
             copyright
@@ -154,6 +136,12 @@
 
                 });
             </script>
+                 </script>
+                 <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+                 integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+                 crossorigin="anonymous"></script>
+     
+         <script src="scripts.js"></script>
    
     </body>
 </html>

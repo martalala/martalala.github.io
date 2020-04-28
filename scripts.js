@@ -1,8 +1,9 @@
-$(function() {
-
-  $('.scroll-down').click (function() {
-    $('html, body').animate({scrollTop: $('#last-projects').offset().top }, 'slow');
-    return false;
+$(document).ready(function () {
+  $('.js-open').on('click', function () {
+    $('html').addClass('menu-open');
   });
-	
+
+  $('.js-close').on('click', function () {
+    $('html').removeClass('menu-open');
+  });
 });
