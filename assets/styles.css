@@ -50,7 +50,7 @@ h3 {
 footer {
     background-color: #0f3f7b;
     color: #17f9c2;
-    padding: 1rem 0;
+    padding: 0.5rem 3rem;
     text-align: center;
 }
 
@@ -232,13 +232,13 @@ img {
 
 .social__item {
     display: block;
-    padding: 0, 625rem;
+    padding: 0 0.625rem;
 }
 
 .footer__wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 
@@ -268,6 +268,10 @@ img {
 }
 .logo__content{
     width: 40%;
+}
+
+.fullblock{
+    display: block;
 }
 
 @media (min-width: 48em) and (max-width: 64em) {
@@ -562,9 +566,6 @@ img {
 
 
 
-
-
-
     /*Projects page */
     .sidebar-wrapper {
         position: fixed;
@@ -576,8 +577,8 @@ img {
         width: 40%;
         height: 100%;
         padding: 75px 85px 50px;
-        background-color: #F6FAFC;
-        background-image: linear-gradient(180deg, #F6FAFC, #F6FAFC);
+        background: #E0F2F4;
+        background-image: linear-gradient(180deg, #E0F2F4, #E0F2F4);
     }
 
     .about-copy {
@@ -620,7 +621,7 @@ img {
 
     .social__item_footer {
         display: block;
-        padding: 0, 625rem;
+        padding: 0.625rem;
         margin-right: 30px;
     }
     .flex_social svg {
@@ -638,8 +639,8 @@ img {
         width: 100%;
         height: auto;
         padding: 65px;
-         /* background: #b6c4d6*/
-         background: #fff;
+        background-color: #F6FAFC;
+         
     }
 
     .orange {
@@ -747,7 +748,7 @@ html.w-mod-js *[data-ix="text-slide-2"] {
 
 /*🍔*/
     /* min-width: 639px */
-@media (max-width: 39.9375em) {
+ @media (max-width: 39.9375em) {
     .navigation {
       background: #0F3F7B;
       height: 100vh;
@@ -814,6 +815,6 @@ html.w-mod-js *[data-ix="text-slide-2"] {
         text-decoration: #17F9C2 solid underline;
         -webkit-text-decoration-skip: ink;
         text-decoration-skip: ink;
-    }   
-    }    
+    }      
+}
 }
