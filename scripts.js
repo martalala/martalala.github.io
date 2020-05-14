@@ -6,4 +6,6 @@ $(document).ready(function () {
   $('.js-close').on('click', function () {
     $('html').removeClass('menu-open');
   });
+
+  
 });
