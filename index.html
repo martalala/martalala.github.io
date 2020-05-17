@@ -15,15 +15,15 @@
     <body class="">
 
         <header class="header">
-            <img src="assets/img/marta.svg" alt="Logo" class="logo desktop">
-            <img src="assets/img/marta-m.svg" alt="Logo" class="logo mobile">
+            <a href="#home" class="js-anchor"><img src="assets/img/marta.svg" alt="Logo" class="logo desktop"></a>
+            <a href="#home" class="js-anchor"><img src="assets/img/marta-m.svg" alt="Logo" class="logo mobile"></a>
             <button class="burguer js-open"><svg width="29" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="28.479" height="3" rx="1.5" fill="#04174D"/><rect y="10.051" width="28.479" height="3" rx="1.5" fill="#04174D"/><rect y="20.102" width="28.479" height="3" rx="1.5" fill="#04174D"/></svg></button>
             <nav class="navigation">
                 <button class="navigation__close js-close"><svg width="44" height="45" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="9.899" y="32.343" width="31.112" height="4" rx="2" transform="rotate(-45 9.9 32.343)" fill="#C4C4C4"/><rect x="12.727" y="9.716" width="31.112" height="4" rx="2" transform="rotate(45 12.727 9.716)" fill="#C4C4C4"/></svg></button>
                     <ul class="navigation__list">
                         <a href="#home" class="js-anchor menu_text"><li>Home</li></a>
-                        <a href="proyectos/index.html" class="menu_text"><li>Projects</li></a>
-                        <a href="#contact" class="js-anchor menu_text"><li>Contact</li></a>
+                        <a href="proyectos/index.html" class="menu_text"><li>Proyectos</li></a>
+                        <a href="#contact" class="js-anchor menu_text"><li>Contacto</li></a>
                     </ul>
                 </nav>
         </header>
@@ -60,27 +60,25 @@
                     <div class="grid">
                         <div class="grid__column">
                             <a href="proyectos/proyecto-01/projects.html" class="fullblock">
-                            <div class="card">
-                                <img class="card__image" src="assets/img/panopticCartel631.png" alt="" />
+                            <div class="card hover01">
+                                <figure><img class="card__image" src="assets/img/panopticCartel631.png" alt="" /></figure>
                                 <div class="card__content">
                                     <div class="title_sub1">Graphic design</div>
                                     <h3>Panòptic</h3>
                                     <p>Panòptic es un festival de cine que explora los efectos de la era digital en la sociedad. Para su primera edición cree el logo, cartel y programa de mano del festival.
                                     </p>
-                                    <!--<a class="link" href="proyectos/proyecto-01/projects.html">Ver más</a>-->
                                 </div>
                             </div></a>
                         </div>
                         <div class="grid__column">
                             <a href="proyectos/proyecto-01/404_01.html" class="fullblock">
-                            <div class="card">
-                                <img class="card__image" src="assets/img/emochi-mockups-phone.png" alt="" />
+                            <div class="card hover01">
+                                <figure><img class="card__image" src="assets/img/emochi-mockups-phone.png" alt="" /></figure>
                                 <div class="card__content">
                                     <div class="title_sub1">Ui design</div>
                                     <h3>Emochi</h3>
                                     <p>La mascota virtual que ayuda a aadolescentes a crecer emocionalmente y ofrece a porfesores una herramienta para acompañarlos en su desarrollo.
                                     </p>
-                                   <!-- <a class="link" href="">Ver más</a>-->
                                 </div>
                             </div></a>
                         </div>
@@ -98,7 +96,7 @@
                         <p class="comoh3">Tienes un proyecto en mente que quieras desarrollar?</p>
                         <p class="comoh3">Estás buscando una diseñadora para unirse a tu equipo?</p>
                       <!--   <p class="comoh3">No dudes en contactarme!-->
-                        <a data-ix="text-slide" href="mailto:martalaplana@gmail.com" class="button__primary left">Hablemos ahora!</a>
+                        <a data-ix="text-slide" href="mailto:martalaplana@gmail.com" class="button__primary left"><span>Hablemos ahora!</span></a>
                     </div>  
                 <img src="assets/img/contact-green-01.png" class="center">
                 </div>
@@ -139,8 +137,6 @@
                 });
                 });
             </script>
-     
        <script src="scripts.js"></script>
-   
     </body>
 </html>
