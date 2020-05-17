@@ -405,7 +405,7 @@ img {
     margin-bottom: 1rem;
 }
 .gif_top {
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 .gif_footer {
     position: fixed;
@@ -439,7 +439,7 @@ img {
 }
 .pos {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 25px;
     bottom: 70px;
 }
