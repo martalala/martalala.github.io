@@ -439,7 +439,7 @@ img {
 }
 .pos {
     display: block;
-    position: relative;
+    position: absolute;
     right: 25px;
     bottom: 70px;
 }
