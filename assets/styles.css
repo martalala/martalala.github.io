@@ -426,7 +426,9 @@ img {
 .volver_c{
     background: #F6FAFC;
 }
-
+.logo{
+    height: 18px;
+}
 
 @media (min-width: 48em) and (max-width: 64em) {
     /* 768px */
@@ -632,6 +634,8 @@ img {
         padding: 0 1.875rem;
         margin: 0 auto;
         width: 100%;
+        bottom: 55px;
+        position: absolute;
     }
     .volver_c{
         background: #F6FAFC;
@@ -639,6 +643,15 @@ img {
     .volver_footer {
         position: fixed;
         width: 100%;
+    }
+    .volver_no{
+        display: flex;
+        padding: 0 1.875rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .logo{
+        height: 24px;
     }
 }
 
@@ -1136,6 +1149,14 @@ img {
         padding: 0 1.875rem;
         margin: 0 auto;
         width: 100%;
+        bottom: 55px;
+        position: absolute;
+    }
+    .volver_no{
+        display: flex;
+        padding: 0 1.875rem;
+        margin: 0 auto;
+        width: 100%;
     }
     .volver_c{
         background: #F6FAFC;
@@ -1153,6 +1174,14 @@ img {
         padding-bottom: 5rem;
         padding-bottom: 9rem;
         padding-top: 67px;
+    }
+    .gif_footer {
+        position: fixed;
+        bottom: 0;
+        width:100%;
+    }
+    .logo{
+        height: 24px;
     }
 }
 
