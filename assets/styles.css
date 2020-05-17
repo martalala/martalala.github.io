@@ -420,14 +420,28 @@ img {
 .volver{
     display: flex;
     padding: 0 1.875rem;
-    margin: 0 auto;
+    right: 20px;
     width: 100%;
+    position: absolute;
+    bottom: 55px;
 }
 .volver_c{
     background: #F6FAFC;
 }
 .logo{
     height: 18px;
+}
+.volver_no{
+    display: flex;
+    padding: 0 1.875rem;
+    margin: 0 auto;
+    width: 100%;
+}
+.pos {
+    display: block;
+    position: absolute;
+    right: 25px;
+    bottom: 70px;
 }
 
 @media (min-width: 48em) and (max-width: 64em) {
