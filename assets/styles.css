@@ -450,6 +450,7 @@ img {
 }
 .ab_separation {
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 .ab_image {
     width: 100%;
@@ -470,7 +471,8 @@ img {
     width: 60%;
     height: 100%;
     margin: auto;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .ab_image_map{
     width: 100%;
@@ -1362,6 +1364,7 @@ img {
     }
     .ab_separation {
         padding-bottom: 2rem;
+        padding-top: 0rem;
     }
     .ab_image {
         width: 60%;
@@ -1378,10 +1381,13 @@ img {
         height: 100%;
         padding-left: 2rem;
         padding-top: 0rem;
+        padding-bottom: 0rem;
+        margin-top: -3rem;
     }
     .ab_image_map{
         width: 50%;
         height: 100%;
+        margin-top: -3rem;
     }
     .ab_inline{
         display: inline-flex;
