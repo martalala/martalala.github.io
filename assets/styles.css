@@ -449,7 +449,7 @@ img {
     margin: 0.2rem;
 }
 .ab_separation {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .ab_image {
     width: 100%;
@@ -461,7 +461,7 @@ img {
     flex-direction: column;
 }
 .ab_margin {
-    padding-top: 0.75rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
