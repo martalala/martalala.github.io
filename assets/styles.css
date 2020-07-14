@@ -202,7 +202,21 @@ p {
     padding: 0.75rem 2.5rem;
     border-radius: 23px;
     font-size: 0.9rem;
-    border: 2px solid;
+    border: 1.5px solid;
+    border-color: #0f3f7b;
+    color: #0f3f7b;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem auto;
+    background-color: #Fff;
+}
+.button__tres {
+    display: inline-block;
+    padding: 0.75rem 2.5rem;
+    border-radius: 23px;
+    font-size: 0.9rem;
+    border: 1.5px solid;
     border-color: #0f3f7b;
     color: #0f3f7b;
     text-decoration: none;
@@ -661,7 +675,21 @@ img {
         padding: 0.75rem 3rem;
         border-radius: 36px;
         font-size: 0.9rem;
-        border: 2px solid;
+        border: 1.5px solid;
+        border-color: #0f3f7b;
+        color: #0f3f7b;
+        text-decoration: none;
+        font-weight: 700;
+        text-align: center;
+        margin: 1.5rem auto;
+        background-color: #Fff;
+    }
+    .button__tres {
+        display: inline-block;
+        padding: 0.75rem 3rem;
+        border-radius: 36px;
+        font-size: 0.9rem;
+        border: 1.5px solid;
         border-color: #0f3f7b;
         color: #0f3f7b;
         text-decoration: none;
@@ -981,7 +1009,7 @@ img {
         padding: 0.75rem 2rem;
         border-radius: 36px;
         font-size: 0.9rem;
-        border: 2px solid;
+        border: 1.5px solid;
         border-color: #0f3f7b;
         color: #0f3f7b;
         text-decoration: none;
@@ -1014,6 +1042,45 @@ img {
         opacity: 1;
         left: 0;
       }
+      .button__tres {
+        display: inline-block;
+        padding: 0.75rem 2rem;
+        border-radius: 36px;
+        font-size: 0.9rem;
+        border: 1.5px solid;
+        border-color: #0f3f7b;
+        color: #0f3f7b;
+        text-decoration: none;
+        font-weight: 700;
+        text-align: center;
+        margin: 1.5rem auto;
+        background-color: #fff;
+    }
+    .button__tres span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button__tres span:after {
+        content: '\276F';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button__tres:hover span {
+        padding-right: 25px;
+      }
+      
+      .button__tres:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
     .left{
         margin: 1.6875rem 0;
     }
