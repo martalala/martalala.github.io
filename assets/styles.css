@@ -1465,6 +1465,16 @@ img {
     }.ab_space{
         margin-bottom: 1.75;
     }
+    .ab_content-wrapper {
+        position: static;
+        overflow: visible;
+        width: 60%;
+        max-width: 1200px;
+        margin-left: 40%;
+        float: none;
+        clear: none;
+        padding-top: 27px;
+    }
   
 
 }
