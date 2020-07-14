@@ -1475,6 +1475,20 @@ img {
         clear: none;
         padding-top: 27px;
     }
+    .downlink{
+        color: #0f3f7b;
+        -webkit-text-decoration: #17F9C2 solid underline;
+        text-decoration: #17F9C2 solid underline;
+        -webkit-text-decoration-skip: ink;
+        text-decoration-skip: ink;
+    }
+    .downlink:hover{
+        color: #0f3f7b;
+        -webkit-text-decoration: #38A1D6 solid underline;
+        text-decoration: #38A1D6 solid underline;
+        -webkit-text-decoration-skip: ink;
+        text-decoration-skip: ink;
+    }
   
 
 }
