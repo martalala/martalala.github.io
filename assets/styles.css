@@ -116,7 +116,7 @@ p {
 
 .box_fill {
     display: block;
-    margin: 0 -1rem;
+    margin: 0 -1rem 1rem;
     padding: 0.6rem 1.5rem;
     border-radius: 15px;
     background-color: #EDF3F4;
@@ -308,7 +308,7 @@ img {
     border-radius: 20px;
     padding: 9rem 1.5rem 1.5rem;
     margin-top: -9rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     min-height: inherit;
 }
 
@@ -946,7 +946,7 @@ img {
     }
     .box_fill {
         display: block;
-        margin: 0 -1.5rem;
+        margin: 0 -1.5rem 1rem;
         padding: 2rem 4rem;
         border-radius: 15px;
         background-color: #EDF3F4;
