@@ -1481,6 +1481,7 @@ img {
         text-decoration: #17F9C2 solid underline;
         -webkit-text-decoration-skip: ink;
         text-decoration-skip: ink;
+        font-size: 1rem;
     }
     .downlink:hover{
         color: #0f3f7b;
@@ -1488,6 +1489,7 @@ img {
         text-decoration: #38A1D6 solid underline;
         -webkit-text-decoration-skip: ink;
         text-decoration-skip: ink;
+        font-size: 1.1rem;
     }
   
 
