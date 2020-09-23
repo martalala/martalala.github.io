@@ -1491,6 +1491,17 @@ img {
         text-decoration-skip: ink;
         font-size: 1.1rem;
     }
+    #myVideo {
+        max-width: 100%;
+        height: 100%;
+      }
+      .video__content {
+        width: 40%;
+    }
+    .video__hero {
+        width: 60%;
+    }
+
   
 
 }
