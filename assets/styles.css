@@ -526,6 +526,10 @@ img {
  width: 100%;
 }
 
+.edit__image{
+    padding-top: 1.5rem;
+}
+
 
 
 @media (min-width: 48em) and (max-width: 64em) {
