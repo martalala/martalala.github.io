@@ -523,8 +523,8 @@ img {
     z-index: 1;
 }
 .video__hero {
- max-width: 350px;
- margin:auto;
+ width: 100%;
+ margin: auto;
 }
 
 
