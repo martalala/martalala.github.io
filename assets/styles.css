@@ -60,6 +60,9 @@ h3 {
     -webkit-text-decoration-skip: ink;
     text-decoration-skip: ink;
 }
+.unrem{
+    margin-bottom: 1.5rem;
+}
 
 
 
@@ -1139,6 +1142,17 @@ img {
         width: 45%;
         padding-top: 1rem;
     }
+    .input{
+        max-width: 411px;
+    }
+    .spaces{
+        margin-top: 2rem;
+        padding: 0.5rem;
+    }
+ 
+
+    
+
     .low{
         margin-bottom: -2rem;
         margin-top: 2rem;
@@ -1148,7 +1162,7 @@ img {
         padding-right: 1rem;
     }
     .resp__image{
-        width: 65%;
+        width: 45%;
         margin-right: -3rem;
     }
 
